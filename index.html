@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Domci leayout</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/utility.css" />
+	</head>
+	<body>
+		<header>
+			<!-- Navbar -->
+<nav class="navbar navbar-expand-md ">
+  <div class="container">
+    
+    <!-- Logo -->
+    <a class="logo naturalTextBlack logofont" href="index.html">N E W  B R A N D</a>
+
+    <!-- Burger dugme (vidljivo samo ispod 768px) -->
+    <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigacija -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav font18">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Store</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Point of Sale</a></li>
+      </ul>
+    </div>
+
+    <!-- Ikona korpe (uvek desno) -->
+    <div class="cart-icon d-none d-md-flex">
+      <img src="img/asets/shopingcart.png" alt="Cart Icon">
+    </div>
+		</header>
+
+			<main>
+				<!-- Hero section -->
+				 <header class="hero container">
+						<div class="content d-flex col-xl-12 flex-column justify-content-center align-content-center ">
+							<h1 class="h1Font naturalTextwhite">New Coffee Parts</h1>
+							<button class="heroBtn primaryFont PrimaryBtn mt-5">Shop Now</button>
+						</div>
+				</header>
+			</main>
+
+		<section class="NewArrivals sectionColorSecondary secondaryFont">
+			<h2 class="NewArrivalsHeading secondaryFont">NEW ARRIVALS</h2>
+			<article class="NewProduct d-flex flex-wrap justify-content-between container">
+				<div class="productInfo col-12 col-sm-3">
+					<img src="img/milkjug.webp"  alt="Milk Jug" />
+					<h2 class="primaryFont">Milk Jug 600ml</h2>
+					<h3>&#8364; 70</h3>
+				</div>
+
+				<div class="productInfo col-12 col-sm-3">
+					<img src="img/tamper.webp"  alt="Coffee Tamper" />
+					<h2 class="primaryFont">Coffee Tamper</h2>
+					<h3>&#8364; 40</h3>
+				</div>
+
+				<div class="productInfo col-12 col-sm-3">
+					<img src="img/scale.webp"  alt="Barista Scale" />
+					<h2 class="primaryFont">Barista Scale</h2>
+					<h3>&#8364; 140</h3>
+				</div>
+			</article>
+			<div class="container d-flex justify-content-center align-items-center">
+				<button class="NewProductBtn primaryFont PrimaryBtn">View More</button>
+			</div>
+		</section>
+
+		<section
+			class="container d-flex flex-wrap justify-content-between  blogSection sectionColorPrimary"
+		>
+			<article class="blogContant col-12 col-sm-5">
+				<img src="img/Story.jpg" alt="Our Story" />
+				<div>
+					<h2 class="text-center pt-3 secondaryFont">Our Story</h2>
+					<p class="text-center">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+						deleniti culpa ad recusandae aliquam!
+					</p>
+				</div>
+			</article>
+
+			<article class=" blogContant col-12 col-sm-5">
+				<img src="img/Blog.jpg" alt="Our Blog" />
+				<div>
+					<h2 class="text-center pt-3 secondaryFont">Our Blog</h2>
+					<p class="text-center">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque
+						deleniti culpa ad recusandae aliquam!
+					</p>
+				</div>
+			</article>
+		</section>
+
+		<section
+			class="container d-flex flex-wrap justify-content-between procesingSection sectionColorPrimary"
+		>
+			<article class="blogProduction col-5 col-sm-3">
+				<img src="img/roasting.webp" alt="Roasting coffee" />
+
+				<div>
+					<h3 class="text-center pt-3 secondaryFont">Roasting</h3>
+					<p class="text-center">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,
+						autem?
+					</p>
+				</div>
+			</article>
+
+			<article class="blogProduction col-5 col-sm-3">
+				<img src="img/cupping.webp" alt="Cupping coffee" />
+
+				<div>
+					<h3 class="text-center pt-3 secondaryFont">Cupping</h3>
+					<p class="text-center">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,
+						autem?
+					</p>
+				</div>
+			</article>
+
+			<article class="blogProduction col-5 col-sm-3">
+				<img src="img/pripering.jpg" alt="Preparing coffee" />
+
+				<div>
+					<h3 class="text-center pt-3 secondaryFont">Preparing</h3>
+					<p class="text-center">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio,
+						autem?
+					</p>
+				</div>
+			</article>
+		</section>
+
+		<section class="storeItems sectionColorSecondary secondaryFont">
+			<h2 class="newStoreheading text-center secondaryFont">NEW ARRIVALS</h2>
+			
+			<article class="newStoreItem d-flex flex-wrap justify-content-between container">
+				<div class="storeItemInfo col-12 col-sm-3 mt-5">
+					<img src="img/Cups/white_cup.webp"  alt="White Cup" />
+					<h2 class="primaryFont">White Cup 250ml</h2>
+					<h3>&#8364; 14.08</h3>
+				</div>
+
+				<div class="storeItemInfo col-12 col-sm-3 mt-5">
+					<img src="img/Cups/bleck_cup.webp"  alt="Bleck cup" />
+					<h2 class="primaryFont">Bleck cup 250ml</h2>
+					<h3>&#8364; 14.08</h3>
+				</div>
+
+				<div class="storeItemInfo col-12 col-sm-3 mt-5">
+					<img src="img/Cups/red_cup.webp"  alt="Red Cup" />
+					<h2 class="primaryFont">Red Cup 250ml</h2>
+					<h3>&#8364; 14.08</h3>
+				</div>
+
+				<div class="storeItemInfo ItemsMargine col-12 col-sm-3 ">
+					<img src="img/Cups/blue_cup.webp"  alt="Blue Cup" />
+					<h2 class="primaryFont">Blue Cup 250ml</h2>
+					<h3>&#8364; 14.08</h3>
+				</div>
+
+				<div class="storeItemInfo ItemsMargine col-12 col-sm-3 ">
+					<img src="img/Cups/brown_cup.webp"  alt="Brown Cup" />
+					<h2 class="primaryFont">Brown Cup 250ml</h2>
+					<h3>&#8364; 14.08</h3>
+				</div>
+
+				<div class="storeItemInfo ItemsMargine col-12 col-sm-3 ">
+					<img src="img/Cups/yellow_cup.webp"  alt="Yellow Cup" />
+					<h2 class="primaryFont">Yellow Cup 250ml</h2>
+					<h3>&#8364; 14.08</h3>
+				</div>
+			
+			</article>
+			<div class="container d-flex justify-content-center align-items-center">
+				<button class="storeBtn primaryFont PrimaryBtn">View More</button>
+			</div>
+		</section>
+		<div class=" sectionColorSecondary">
+		<section class=" benefits container d-flex flex-wrap justify-content-center align-content-center">
+			<div class="benefit-item col-5 col-sm-4 mt-3">
+					<i class="fas fa-lock "></i>
+					<p class="secondaryFont">Secured Payments</p>
+			</div>
+			<div class="benefit-item col-5 col-sm-4 mt-3">
+					<i class="fas fa-truck"></i>
+					<p class="secondaryFont" >Free shipping and Returns</p>
+			</div>
+			<div class="benefit-item col-5 col-sm-4 mt-3">
+					<i class="fas fa-headset"></i>
+					<p class="secondaryFont">24/7 Customer Service</p>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer sectionColorPrimary naturalTextBlack">
+		<div class="container ">
+				<div class="row">
+						<div class="col-md-3">
+									<ul class="list-unstyled ">
+										<li><a href="index.html" class="active">Home</a></li>
+										<li><a href="#">Store</a></li>
+										<li><a href="#">About</a></li>
+										<li><a href="#">Blog</a></li>
+										<li><a href="#">Point of Sale</a></li>
+								</ul>
+						</div>
+						<div class="col-md-3">
+								<h5>810, Bay Area, San Francisco, CA 94158</h5>
+								<ul class="list-unstyled">
+										<li>Email: info@NewBrand-shop.com</li>
+										<li>Call: 1-100-000-0000</li>
+								</ul>
+						</div>
+						<div class="col-md-3">
+								<h5>Shipping & Returns</h5>
+								<ul class="list-unstyled">
+										<li><a href="#">FAQ</a></li>
+								</ul>
+								<ul class="list-inline">
+										<li class="list-inline-item"><a href="#"><img src="img/asets/twitter.svg" alt="Twitter"></a></li>
+										<li class="list-inline-item"><a href="#"><img src="img/asets/facebook.svg" alt="Facebook"></a></li>
+										<li class="list-inline-item"><a href="#"><img src="img/asets/instagram.svg" alt="Instagram"></a></li>
+								</ul>
+						</div>
+						<div class="col-md-3">
+								<h5>Receive all our news and updates.</h5>
+								<form>
+										<div class="mb-3">
+												<input type="email" class="form-control" placeholder="Email Address">
+										</div>
+										<button type="submit" class="footerBtn secondaryBtn colorBtn">Subscribe Now</button>
+								</form>
+						</div>
+				</div>
+		</div>
+</footer>
+
+
+
+
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

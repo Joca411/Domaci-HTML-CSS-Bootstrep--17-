@@ -1,0 +1,191 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #e5e5e5;
+}
+.navbar {
+	margin: 70px 0 60px 0;
+}
+.logo {
+	width: 210px;
+	height: 28px;
+	font-weight: bold;
+
+	text-decoration: none;
+}
+.navbar-nav {
+	gap: 30px;
+}
+.navbar-nav .nav-link.active {
+	font-weight: bold;
+}
+
+.cart-icon {
+	margin-left: 15px;
+}
+
+.hero-section img {
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+.hero {
+	background: url("../img/heroPic.jpg") no-repeat center center/cover;
+	height: 700px;
+	position: relative;
+}
+.hero::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.hero * {
+	z-index: 10;
+}
+.hero .content {
+	text-align: center;
+	height: 100%;
+	padding: 0 20px;
+}
+.heroBtn {
+	margin: 0 auto;
+}
+
+.heroBtn:hover {
+	background-color: #000;
+	color: #fff;
+	transition: 0.3s;
+}
+/* NEW PRODUCST SECTION */
+.NewArrivals .NewArrivalsHeading {
+	text-align: center;
+	padding: 60px 0 60px 0;
+}
+.NewProduct {
+	gap: 20px;
+}
+
+.NewProductBtn {
+	margin: 90px 0 35px 0;
+}
+.NewProductBtn:hover {
+	background-color: #000;
+	color: #fff;
+	transition: 0.3s;
+}
+.NewProduct .productInfo {
+	border: 2px solid #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.productInfo h2 {
+	margin-top: 25px;
+}
+.NewProduct img {
+	width: 100%;
+	height: auto;
+}
+
+/* BlOG SECTION */
+.blogContant img {
+	width: 100%;
+	height: auto;
+}
+.blogSection {
+	padding-top: 100px;
+	gap: 20px;
+}
+
+.blogProduction img {
+	width: 100%;
+	height: auto;
+}
+
+/* PROCESING SECTION */
+.procesingSection {
+	padding-top: 150px;
+	padding-bottom: 110px;
+}
+
+/* STORE PRODUCT */
+
+.newStoreheading {
+	padding: 60px 0 70px 0;
+}
+
+.newStoreItem img {
+	width: 100%;
+	height: auto;
+}
+.newStoreitem,
+.storeItemInfo {
+	border: 2px solid #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.storeItemInfo h2 {
+	margin-top: 25px;
+}
+.newStoreItem {
+	gap: 70px;
+}
+
+.ItemsMargine {
+	margin-top: 150px;
+}
+
+.storeBtn {
+	margin: 160px 0 145px 0;
+}
+
+.storeBtn:hover {
+	background-color: #000;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.benefits {
+	/* gap: 50px; */
+	text-align: center;
+	padding-bottom: 180px;
+}
+.benefit-item p {
+	margin-bottom: 30px;
+}
+.benefit-item i {
+	font-size: 82px;
+	color: #c4c4c4;
+	margin: 0 0 25px 0;
+}
+
+/* FOOTER */
+.footer {
+	padding: 120px 0 110px 0;
+}
+
+.list-unstyled.active {
+	width: bolder;
+}
+.list-inline img {
+	width: 30px;
+}
+.list-unstyled a {
+	text-decoration: none;
+	color: #000;
+}
+.footer a.active {
+	font-weight: bold;
+}
